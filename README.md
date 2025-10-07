@@ -4,7 +4,11 @@
 Hello world!
 
 ### W2
-Create future Devlog sub-headers with the three # symbols, then write your Devlogs below them.
+Debug: forget one ";" from the coding we should uncomment. 
+
+1. Because RGB color is a fractional numbers, we are both using letters and numbers. 
+2. Because when we count our bounce times, we do whole number, so we are using int.
+3. The error is actualy the change of the ball after every bounce. 
 
 ## Open-Source Assets
 ### W1
