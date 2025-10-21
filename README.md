@@ -22,6 +22,12 @@ We can use int (parameters) on friendship level, for GetResponse(string) we need
 2. Becase the RGB color only increase not decrease. 
 
 
+### W4
+Table# 8 (1~10): Line 5 declares a member value in float type, which representing the distance moved by the object each unit time. Line 22 is calculation on component called translation in float type, which is the position calculated each frame by current position times _movespeed times time passed. Line 25 is calling method named translation, which might be updates on calculated position to the object each frame to simulate animation of translation. The translation method have 3 parameters and only the 3rd parameter is filled by translation component, so it might means the third parameter represents verticle translation.
+
+1. For the collider activity, we decided to add Rigidbodies to the Cat and the SoccerBall so they could collide and bounce realistically. We set the Goal’s BoxCollider as a Trigger so the ball could detect when it enters the goal without being blocked.
+2. I forgot to add freeze to the cat and the ball, so my cat and camrea rotate cause bugs, after add the freeze for X and Y, the game work just fine.
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
