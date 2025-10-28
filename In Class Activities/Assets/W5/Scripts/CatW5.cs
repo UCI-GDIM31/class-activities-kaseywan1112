@@ -17,7 +17,6 @@ public class CatW5 : MonoBehaviour
         //      the cat's movement.
         //
         // The Cat should move forwards and backwards with the W and S keys.
-        //
         // Use the "static properties" listed under the Vector3 documentation:
         //  https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Vector3.html
         //
@@ -31,7 +30,12 @@ public class CatW5 : MonoBehaviour
         //          changing that axis?
         //      Should I modify translation with Vector addition, or multiplication,
         //          or both?
-        //
+        float speed = _moveSpeed;
+        float turnSpeed = _turnSpeed;
+        if (_isWalkingName != _isWalkingName)
+        {
+
+        }
         // STEP 2
         // After Step 1 is working, add more code to make it possible to flip
         //      the player's control scheme.
@@ -45,6 +49,9 @@ public class CatW5 : MonoBehaviour
 
         Vector3 translation = Vector3.zero;
         
+        if (_animator != null) {
+            _isWalkingName.SetActive(false);
+            _flipWSControls = false;
 
 
         // STEP 1 & 2 ---------------------------------------------------------
