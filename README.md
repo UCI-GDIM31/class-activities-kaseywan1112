@@ -41,6 +41,10 @@ I think we can use coding to check speed, and also we can just fixed our animati
 ### W6
 [Class resource guide](https://docs.google.com/document/d/1I9v9DLgH_h1Npt-SvcE6Rrcdn8rclMwmf5H-zmU4f14/edit?tab=t.0)
 
+Bug Fixed: I forgot to open my project with the new editor version, cause a lot of bug.
+
+For BatW6, I try to use Navmesh, and it didn't, after using Vector3, bat works just fine.
+
 
 
 ## Open-Source Assets
