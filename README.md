@@ -38,6 +38,11 @@ I think we can use coding to check speed, and also we can just fixed our animati
 2. I used Start() for this class, and we can use Update() if we want the deer keep moving with the cat.
 3. I think method(s) are the behavior of a subject.
 
+### W6
+[Class resource guide](https://docs.google.com/document/d/1I9v9DLgH_h1Npt-SvcE6Rrcdn8rclMwmf5H-zmU4f14/edit?tab=t.0)
+
+
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
