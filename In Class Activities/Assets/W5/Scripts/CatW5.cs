@@ -30,12 +30,6 @@ public class CatW5 : MonoBehaviour
         //          changing that axis?
         //      Should I modify translation with Vector addition, or multiplication,
         //          or both?
-        float speed = _moveSpeed;
-        float turnSpeed = _turnSpeed;
-        if (_isWalkingName != _isWalkingName)
-        {
-
-        }
         // STEP 2
         // After Step 1 is working, add more code to make it possible to flip
         //      the player's control scheme.
@@ -47,25 +41,9 @@ public class CatW5 : MonoBehaviour
         //
         // MULTIPLY one of your vectors with a certain value to do this. >:)
 
-        Vector3 translation = Vector3.zero;
-        
-        if (_animator != null) {
-            _isWalkingName.SetActive(false);
-            _flipWSControls = false;
 
 
         // STEP 1 & 2 ---------------------------------------------------------
 
-        float rotation = Input.GetAxis("Horizontal") * _turnSpeed * Time.deltaTime;
-        transform.Rotate(0, rotation, 0);
-
-        if (translation.magnitude != 0.0f || rotation != 0.0f)
-        {
-            _animator.SetBool(_isWalkingName, true);
-        }
-        else
-        {
-            _animator.SetBool(_isWalkingName, false);
-        }
     }
 }
