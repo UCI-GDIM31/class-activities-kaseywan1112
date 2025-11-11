@@ -45,6 +45,12 @@ Bug Fixed: I forgot to open my project with the new editor version, cause a lot 
 
 For BatW6, I try to use Navmesh, and it didn't, after using Vector3, bat works just fine.
 
+### W7
+[Week 7 Class Activity](https://docs.google.com/document/d/1pVQF8OAxJPUS-FvcqORq1R6zN29-Wx7oRm__EkzzC70/edit?tab=t.0)
+(Yaokun Wan Gameplay part)
+
+For Step 2, we switched from using <Vector3.forward> to <transform.forward>. <Vector3.forward> is in world space and always points along the global Z axis, so the muskrat moves by the map’s axes instead of its own facing direction. <transform.forward> is in local space and follows the character’s current rotation, so when you turn and then move forward, the muskrat actually moves in the direction it’s facing.
+
 
 
 ## Open-Source Assets
