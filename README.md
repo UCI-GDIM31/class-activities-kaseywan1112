@@ -51,6 +51,8 @@ For BatW6, I try to use Navmesh, and it didn't, after using Vector3, bat works j
 
 For Step 2, we switched from using <Vector3.forward> to <transform.forward>. <Vector3.forward> is in world space and always points along the global Z axis, so the muskrat moves by the map’s axes instead of its own facing direction. <transform.forward> is in local space and follows the character’s current rotation, so when you turn and then move forward, the muskrat actually moves in the direction it’s facing.
 
+### W8
+[Week 8 plans for final](https://docs.google.com/document/d/1bH_UfpS7NLyP5RQ2-J-6koZJK2ffy9PmBksPuVndz5o/edit?tab=t.0)
 
 
 ## Open-Source Assets
